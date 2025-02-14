@@ -170,8 +170,8 @@ populateDbJob:
   backoffLimit: 10
   restartPolicy: Never
 
-  doc_git_repo: https://github.com/RHEcosystemAppEng/llm-on-openshift.git
-  doc_location: examples/notebooks/langchain/rhods-doc
+  doc_git_repo: https://github.com/rabay108/airdocsrepo.git
+  doc_location: ptnrdocs
   doc_dir: /docs
 
 
