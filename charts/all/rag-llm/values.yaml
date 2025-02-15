@@ -9,7 +9,8 @@ llmui:
 replicaCount: 1
 
 image:
-  repository:  'quay.io/ecosystem-appeng/gradio-tgi-multi-model-rag'
+  #repository:  'quay.io/ecosystem-appeng/gradio-tgi-multi-model-rag'
+  repository: 'http://quay.io/sauagarw/gradio-tgi-multi-model-rag-redis'
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "0.3.0"
