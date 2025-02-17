@@ -172,7 +172,7 @@ populateDbJob:
   backoffLimit: 10
   restartPolicy: Never
 
-  doc_git_repo: https://github.com/rabay108/airdocsrepo.git
+  doc_git_repo: https://privategit-gitea.apps.cluster-pp5t5.pp5t5.sandbox312.opentlc.com/gitadmin/airdocsrepo.git
   doc_location: ptnrdocs
   doc_dir: /docs
 
